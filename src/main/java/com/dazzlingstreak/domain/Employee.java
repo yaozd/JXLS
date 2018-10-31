@@ -27,6 +27,10 @@ public class Employee {
      * 薪水
      */
     private double salary;
+    /***
+     * 婚姻情况
+     */
+    private Integer marriage;
 
     public String getName() {
         return name;
@@ -58,5 +62,12 @@ public class Employee {
 
     public void setSalary(double salary) {
         this.salary = salary;
+    }
+    public Integer getMarriage() {
+        return marriage;
+    }
+
+    public void setMarriage(Integer marriage) {
+        this.marriage = marriage;
     }
 }

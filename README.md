@@ -18,3 +18,14 @@ Jxls-2.4.0
 1、模板页设置为隐藏，这样导出的excel中，不会有个空的模板sheet页。<br/>
 2、列表数据绑定，建议使用xml配置，序号采用excel的公式就行。例如：=TEXT(ROW()-ROW(A10),"00")<br/>
 3、数据展示需要格式化的情况，优化考虑excel是否本身就能实现。<br/>
+
+================
+JXLS中的EXCEL模板：
+---
+```
+百度云->软件开发E-Excel模板导出-JXLS->EXCEL模板导出-JXLS-支出凭单模板-DEMO-V201810220823.zip
+TEST01.xlsx 
+TEST02.xlsx 
+TEST03.xlsx 
+支出凭单模板表.xlsx 
+````
